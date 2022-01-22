@@ -1,1 +1,1 @@
-web: python3 -m flower --port=$PORT --broker=$BROKER_URL --basic_auth=$FLOWER_BASIC_AUTH
+web: celery flower --port=$PORT --broker=$BROKER_URL --basic_auth=$FLOWER_BASIC_AUTH
